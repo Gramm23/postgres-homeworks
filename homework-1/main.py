@@ -7,7 +7,7 @@ def execute_database_query(sql_statement):
     Эта функция устанавливает соединение с базой данных PostgreSQL,
     выполняет указанный SQL-запрос и закрывает соединение.
     """
-    conn = psycopg2.connect(host="localhost", database="north", user="postgres", password="rdx258qaz852")
+    conn = psycopg2.connect(host="localhost", database="north", user="postgres", password="qwerty23")
     try:
         with conn:
             with conn.cursor() as cur:
